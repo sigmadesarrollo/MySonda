@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<archivo xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns='http://www.uif.shcp.gob.mx/recepcion/mpc' xsi:schemaLocation='http://www.uif.shcp.gob.mx/recepcion/mpc mpc.xsd'>
+ <informe>
+  <mes_reportado>201407</mes_reportado>
+  <sujeto_obligado>
+     <clave_sujeto_obligado>SARL670403CK8</clave_sujeto_obligado>
+     <clave_actividad>MPC</clave_actividad>
+  </sujeto_obligado>
+  <aviso>
+    <referencia_aviso>2</referencia_aviso>
+    <prioridad>1</prioridad>
+    <alerta>
+       <tipo_alerta>100</tipo_alerta>
+    </alerta>
+   <persona_aviso>
+     <tipo_persona>
+         <persona_fisica>
+             <nombre>MARIA ALMENDRA</nombre>
+             <apellido_paterno>ABOOITE</apellido_paterno>
+             <apellido_materno>RABAGO</apellido_materno>
+             <fecha_nacimiento>19801225</fecha_nacimiento>
+             <rfc>AORA801225351</rfc>
+             <curp>AORM801225MBCBBR08</curp>
+             <pais_nacionalidad>MX</pais_nacionalidad>
+             <pais_nacimiento>MX</pais_nacimiento>
+             <actividad_economica>9999999</actividad_economica>
+             <tipo_identificacion>1</tipo_identificacion>
+             <autoridad_identificacion>INSTITUTO FEDERAL ELECTORAL</autoridad_identificacion>
+             <numero_identificacion>123456789</numero_identificacion>
+         </persona_fisica>
+     </tipo_persona>
+     <tipo_domicilio>
+        <nacional>
+           <colonia>PLATEROS</colonia>
+           <calle>CALZ DEL PEREGRINO</calle>
+           <numero_exterior>14</numero_exterior>
+           <codigo_postal>99158</codigo_postal>
+        </nacional>
+     </tipo_domicilio>
+     <telefono>
+         <clave_pais>MX</clave_pais>
+         <numero_telefono>4931154193</numero_telefono>
+     </telefono>
+   </persona_aviso>
+   <dueno_beneficiario>
+     <tipo_persona>
+         <persona_fisica>
+             <nombre>SARAHI</nombre>
+             <apellido_paterno>CARREON</apellido_paterno>
+             <apellido_materno>QUEVEDO</apellido_materno>
+             <fecha_nacimiento>19820102</fecha_nacimiento>
+             <rfc>CAQS820102T52</rfc>
+             <curp>CAQS820102MSLRVR03</curp>
+             <pais_nacionalidad>MX</pais_nacionalidad>
+             <pais_nacimiento>MX</pais_nacimiento>
+             <actividad_economica>9800404</actividad_economica>
+         </persona_fisica>
+     </tipo_persona>
+     <tipo_domicilio>
+        <nacional>
+           <colonia>VILLA SATELITE</colonia>
+           <calle>APOLO</calle>
+           <numero_exterior>1125</numero_exterior>
+           <codigo_postal>82145</codigo_postal>
+        </nacional>
+     </tipo_domicilio>
+     <telefono>
+         <clave_pais>MX</clave_pais>
+         <numero_telefono>9991111111</numero_telefono>
+     </telefono>
+   </dueno_beneficiario>
+   <detalle_operaciones>
+        <operaciones_realizadas>
+           <datos_operacion>
+              <fecha_operacion>20140712</fecha_operacion>
+              <codigo_postal>99000</codigo_postal>
+              <nombre_sucursal>SUC. PLATEROS</nombre_sucursal>
+              <tipo_operacion>402</tipo_operacion>
+              <datos_garantia>
+                 <tipo_garantia></tipo_garantia>
+              </datos_garantia>
+              <datos_liquidacion>
+                 <fecha_pago>20140712</fecha_pago>
+                 <instrumento_monetario>1</instrumento_monetario>
+                 <moneda>1</moneda>
+                 <monto_operacion>2828.90</monto_operacion>
+              </datos_liquidacion>
+           </datos_operacion>
+        </operaciones_realizadas>
+   </detalle_operaciones>
+   </aviso>
+ </informe>
+</archivo>

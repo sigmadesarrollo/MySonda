@@ -1,0 +1,10 @@
+[History]
+1=#P0#=mb	#P1#=Instalar	#P2#=Cliente_Frecuente/ClienteFrecuente/Instalar	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20150706130421	#P7#=0	#P8#=0	.
+2=#P0#=mb	#P1#=IDUsuario	#P2#=Cliente_Frecuente/frmAsignarTarjeta/IDUsuario [Let]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20150508165433	#P7#=0	#P8#=-1	.
+3=#P0#=mb	#P1#=IDCliente	#P2#=Cliente_Frecuente/frmAsignarTarjeta/IDCliente [Let]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20150508164849	#P7#=0	#P8#=2	.
+4=#P0#=mb	#P1#=cmdGrabar_Click	#P2#=Cliente_Frecuente/frmAsignarTarjeta/cmdGrabar_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20150508164835	#P7#=0	#P8#=1	.
+5=#P0#=mb	#P1#=Grabar_Datos	#P2#=Cliente_Frecuente/frmAsignarTarjeta/Grabar_Datos	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20150508161001	#P7#=0	#P8#=11	.
+6=#P0#=mb	#P1#=Grabar_Movimiento	#P2#=Cliente_Frecuente/Cuenta/Grabar_Movimiento	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20140719112547	#P7#=0	#P8#=17	.
+7=#P0#=mb	#P1#=Acumula_Empenos	#P2#=Cliente_Frecuente/Cuenta/Acumula_Empenos	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20140716150752	#P7#=0	#P8#=8	.
+8=#P0#=mb	#P1#=Conexion	#P2#=Cliente_Frecuente/ClienteFrecuente/Conexion [Set]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20140714131036	#P7#=0	#P8#=1	.
+9=#P0#=mb	#P1#=InstalarPuntos	#P2#=Cliente_Frecuente/mdlProcedimientos/InstalarPuntos	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20140714124255	#P7#=0	#P8#=1	.

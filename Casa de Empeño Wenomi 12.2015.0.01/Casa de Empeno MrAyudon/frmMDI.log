@@ -1,0 +1,2 @@
+Línea 49: la clase MSComctlLib.ProgressBar del control Bar no era una clase de control cargada.
+Línea 89: la clase MSComctlLib.ImageList del control imlToolbarIcons no era una clase de control cargada.

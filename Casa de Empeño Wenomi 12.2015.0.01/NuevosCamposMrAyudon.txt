@@ -1,0 +1,38 @@
+ALTER TABLE `basedatos`.`parametros` ADD COLUMN `RentaGPS` DOUBLE(15,5) DEFAULT '0.00000' AFTER `IvaMayoreo`;
+
+ImporteSeguroAuto  DOUBLE(15,4)
+
+ALTER TABLE `basedatos`.`empeno` ADD COLUMN `ImporteRentaGPS` DOUBLE(15,4) DEFAULT '0.0000' AFTER `ImporteSeguroAuto`;
+
+Circulando INT(10)
+
+
+
+Dim crCargoGPS As Double, crCargoSeguroAuto As Double
+
+
+crCargoSeguroAuto 
+
+crCargoGPS
+
+Cuenta Seguro Auto -  828250
+Cuenta Cargo GPS - 818150
+
+
+
+
+grdRefrendos.CellText(IIf(grdRefrendos.Rows > 1, grdRefrendos.Rows - 1, grdRefrendos.Rows), 8) = crIva
+
+
+     grdRefrendos.CellText(IIf(grdRefrendos.Rows > 1, grdRefrendos.Rows - 1, grdRefrendos.Rows), 11) = crMoratorios
+
+                    'Intereses
+                    grdRefrendos.CellText(IIf(grdRefrendos.Rows > 1, grdRefrendos.Rows - 1, grdRefrendos.Rows), 5) = crIntereses
+                    'Almacenaje
+                    grdRefrendos.CellText(IIf(grdRefrendos.Rows > 1, grdRefrendos.Rows - 1, grdRefrendos.Rows), 6) = crAlmacenaje
+                    'Seguro
+                    grdRefrendos.CellText(IIf(grdRefrendos.Rows > 1, grdRefrendos.Rows - 1, grdRefrendos.Rows), 7) = crSeguro
+
+
+
+ crIva = Redondeo(Regresa_Iva(crIntereses + crAlmacenaje + crSeguro + crMoratorios + crCargoGPS + crCargoSeguroAuto, !ID))
